@@ -8,6 +8,9 @@ player with 4 stereo (or 8 mono) outputs. Wav files can be triggered using the
 16 onboard contacts, via MIDI, serial connection or Qwiic to a PC or other
 microcontroller.
 
+This library is a manual transpilation from the official library 
+[Tsunami-Arduino-Serial-Library](https://github.com/robertsonics/Tsunami-Arduino-Serial-Library).
+
 Installation
 ------------
 
