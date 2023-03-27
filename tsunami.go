@@ -416,7 +416,7 @@ func (t *Tsunami) write(b []byte) error {
 		return err
 	}
 
-	if n != 10 {
+	if n != len(b) {
 		return fmt.Errorf("unexpected bytes written %d", n)
 	}
 
